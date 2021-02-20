@@ -1,0 +1,185 @@
+body {
+	background: rgba(255,255,255) !important;
+	background-image: linear-gradient(180deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 40%, rgba(255,255,255,1) 100%) !important;
+	-webkit-background-image: linear-gradient(180deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 40%, rgba(255,255,255,1) 100%) !important;
+	-moz-background-image: linear-gradient(180deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 40%, rgba(255,255,255,1) 100%) !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* --- MAIN CONTENT --- */
+
+	#main_content {
+		width: 850px;
+		margin: 0px auto;
+	}
+
+	/* HEADER */
+
+		#main_content header {
+			height: 120px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			vertical-align: middle;
+		}
+
+		/* -- HEADER ONE -- */
+
+			#main_header_one {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				vertical-align: middle;
+				filter: drop-shadow(1px 1px 3px white);
+			}
+
+			#main_header_one #logo {
+				width: 105px;
+				height: 105px;
+				background-image: url('../Academic.png');
+				background-size: 100% 100%;
+			}
+
+			#main_header_one #title {
+				position: relative;
+				height: auto;
+			}
+
+			#main_header_one #title h1 * {
+				color: #384454;
+				font-weight: 700;
+			}
+
+			#main_header_one #title h1 small {
+				font-size: 12px;
+			}
+
+		/* -- HEADER : TWO -- */
+
+			#main_header_two {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				vertical-align: middle;
+				filter: drop-shadow(1px 1px 3px white);
+			}
+
+			#main_header_two a {
+				color: #384454;
+				font-weight: 600;
+			}
+
+			#main_header_two a:hover {
+				text-decoration: underline !important;
+			}
+
+	/* NAV */
+
+		#main_navbar {
+			clear: both;
+			width: 165px;
+			float: left;
+		}
+
+		#main_navbar * {
+			color: #384454;
+		}
+
+		#main_navbar li {
+			list-style: none;
+			width: 100%;
+			background: #ddd;
+			background: linear-gradient(180deg, #d5d8dc, #eaecee);
+			border: solid 1px #384454;
+			font-size: 14px;
+			padding: 4px;
+			padding-left: 8px;
+			padding-right: 8px;
+			margin-bottom: 5px;
+			font-weight: 500;
+			cursor: pointer;
+		}
+
+		#main_navbar li a {
+			width: 100%;
+			display: flex;
+		}
+
+		#main_navbar li:hover * {
+			color: #2980b9;
+		}
+
+		#main_navbar .header {
+			background: #ddd;
+			background: linear-gradient(180deg, #aaa, #ddd);
+			cursor: default !important;
+			font-weight: 600 !important;
+		}
+
+	/* CONTENT */
+
+		#content {
+			float: right;
+			width: 645px;
+			height: auto;
+		}
+
+		#content * {
+			color: #384454;
+			font-weight: 500;
+			font-size: 14px;
+		}
+
+		#content b {
+			font-weight: 600 !important;
+		}
+
+		#content b i {
+			font-weight: 600 !important;
+			font-style: italic !important;
+		}
+
+		#content i {
+			font-style: italic !important;
+		}
+
+		#content a {
+			color: #2980b9 !important;
+		}
+
+		#content a:hover {
+			text-decoration: underline !important;
+		}
+
+		#content small {
+			font-size: 12px !important;
+		}
+
+		#content big {
+			font-size: 17px !important;
+			font-weight: 800 !important;
+		}
+
+		#content_register {
+			float: right;
+			font-weight: 700;
+		}
+
+		/* FIELDSET */
+
+		#content fieldset {
+			border: solid 1px #384454;
+			padding: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 18px;
+		}
+
+		#content fieldset legend {
+			padding-right: 10px; padding-left: 10px;
+		}
+
+		#content fieldset a {
+			font-weight: 700;
+		}
